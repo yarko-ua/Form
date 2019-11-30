@@ -1,0 +1,147 @@
+.Contact-container {
+    background-image: url("web/image/img.jpg");
+    background-size: cover;
+    background-position: center ;
+    min-height: 866px;
+}
+
+.Contact-container__title {
+text-align: center;
+padding-top: 100px;
+font-family: 'Raleway', sans-serif;
+}
+
+.Contact-container__title--title {
+margin: 0 auto;
+font-size: 90px;
+font-weight: 700;
+}
+
+.Contact-container__title--text {
+    margin: 45px auto;
+    margin-top: 35px;
+    font-size: 17px;
+    font-weight: 300;
+    max-width: 350px;
+    min-height: 45px;
+}
+
+.Contact-container__form {
+    float: left;
+    margin-left: 11%;
+    margin-right: 170px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+}
+
+.Contact-container__list {
+list-style-type:none;
+color: #fff;
+margin-top: 0;
+}
+.Contact-container__item {
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+input {
+    background-color: #00c4c45d;
+    border: transparent;
+    width: 500px;
+    height: 50px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #fff;
+}
+
+input:hover {
+    box-sizing: border-box;
+    border-left: 5px solid #355b82;
+    background-color: #00c4c4;
+    font-weight: 700;
+    height: 52px; 
+}
+
+textarea{
+    height: 250px;
+    width: 494px;
+    background-color:#00c4c45d ;
+    color: #fff;
+}
+
+textarea:hover {
+    box-sizing: border-box;
+    border-left: 5px solid #355b82;
+    background-color: #00c4c4;
+    font-weight: 700;
+    width: 500px;
+    height: 256px;
+}
+
+
+button {
+    width: 200px;
+    height: 50px;
+    background-color: #00c4c4;
+    color: #fff;
+    border: transparent;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+
+button:hover {
+transform: translate(15px, 6px);
+text-shadow: 4px 4px 5px #262626;
+box-shadow: -4px -4px 15px #262626;
+cursor: pointer;
+}
+
+.Contact-container__contacts {
+margin-right: 11%;
+margin-left:170px;
+padding-bottom: 450px ;
+font-family: 'Raleway', sans-serif;
+}
+
+h2, p {
+    margin: 0 auto;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+footer {
+    background-color: #262626;
+    font-family: 'Raleway', sans-serif;
+    color: #b9b9b9;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;;
+}
+
+.footer__author > .red {color: red;}
+
+.footer__copy {
+font-size: 16px;
+font-weight: 300;
+}
+    
+.footer__logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+           
+.footer__author {
+font-size: 15px;
+font-weight: 300;
+}
